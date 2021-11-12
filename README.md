@@ -1,12 +1,21 @@
-# Team Name
+# Mavericks
 
-Project description (~1 paragraph)
+## Overview
+
+The project has been initiated to integrate health services by providing real time Patient/Doctor interaction on a daily basis which helps monitor health condition of patient based on the survey resposes provided.
+
 
 ## Team Members and Roles
 
-* Member 1 (Role 1, Role 2)
-* Member 2 (Role 3, Role 4)
-* Member 3 (Role 5, Role 6)
+* [Rupesh Siddagunta](https://github.com/Rupesh247/CIS641-HW2--Siddagunta.git)
+* [Ruchika Kasireddy](https://github.com/RuchiKasireddy/CIS641-HW2-Kasireddy.git)
+* [Navya Gorre](https://github.com/NavyaGorre/CIS641-HW2-Gorre.git)
+* [Prashanth Rangavajhala](https://github.com/PrashanthRangavajhala/CIS641-HW2-Rangavajhala.git)
+
+## Links
+* [Proposal Template](https://github.com/Rupesh247/GVSU-CIS641-Mavericks/blob/master/docs/proposal-template.md)
+* [SRS Document](https://github.com/Rupesh247/GVSU-CIS641-Mavericks/blob/ed54dca900bf70c7984793545fb8091a7cafce4b/docs/software_requirements_specification.md)
+* [Meetings](https://github.com/Rupesh247/GVSU-CIS641-Mavericks/tree/master/meetings)
 
 ## Prerequisites
 
