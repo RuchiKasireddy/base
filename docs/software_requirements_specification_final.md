@@ -27,8 +27,10 @@ your SRS>
 | ID | Requirement |
 | :-------------: | :----------: |
 | NFR1 | Patient Identification: The system shall identify the patient with the credentials provided. |
-| NFR2 | < Non-Functional Requirement 2> |
-| NFR3 | < Non-Functional Requirement 3> |
+| NFR2 | Login: A Login ID and password shall be required for all the users who use the system. |
+| NFR3 | Modifications: Any changes like insert, delete, update, etc. for the database shall be synchronized quickly.|
+| NFR4 | Staff Rights: The staff shall be able to view any data in the Patient Management system and add new patients record to the system.|
+| NFR5 | Inactivity: User shall be logged off if he is inactivity for most of his login duration.|
 | … | … | … |
   
 # Change management plan
