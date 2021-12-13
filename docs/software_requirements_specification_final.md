@@ -26,7 +26,7 @@ your SRS>
 ### Security
 | ID | Requirement |
 | :-------------: | :----------: |
-| NFR1 | <Patient Identification: The system shall identify the patient with the credentials provided.> |
+| NFR1 | Patient Identification: The system shall identify the patient with the credentials provided. |
 | NFR2 | < Non-Functional Requirement 2> |
 | NFR3 | < Non-Functional Requirement 3> |
 | … | … | … |
