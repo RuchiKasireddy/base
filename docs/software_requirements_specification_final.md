@@ -30,7 +30,17 @@ your SRS>
 | NFR2 | Login: A Login ID and password shall be required for all the users who use the system. |
 | NFR3 | Modifications: Any changes like insert, delete, update, etc. for the database shall be synchronized quickly.|
 | NFR4 | Staff Rights: The staff shall be able to view any data in the Patient Management system and add new patients record to the system.|
-| NFR5 | Inactivity: User shall be logged off if he is inactivity for most of his login duration.|
+| NFR5 | Inactivity: User shall be logged off if he is inactive for most of his login duration.|
+
+  
+### Performance
+| ID | Requirement |
+| :-------------: | :----------: |
+| NFR6 | Responsiveness : The system shall display confirmation message in less than two second once the patient's information is changed/updated. |
+| NFR7 | Capacity: The system shall support at least 100 users at once.|
+| NFR8 | User-Interface: The user interface shall acknowledge within five seconds.|
+| NFR9 |Login: The system shall allow every user to sign in within 5 seconds|
+| NFR5 | Scalability: The system shall be able to handle multiple users without any delay. This will show that the application is very scalable and can handle the load if required.|
 | … | … | … |
   
 # Change management plan
