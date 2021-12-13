@@ -1,25 +1,62 @@
-# Overview
-<Describe the purpose of this document in 1 paragraph of less … hint: it is
-your SRS>
-# Software Requirements
+# HEAL EXPERT
+## _SRS Markdown Structure_
+
+## Overview
+The document contains a full description of the "HEAL EXPERT" requirements. It will demonstrate the application's goal and overall flow.
+
+## Software Requirements
 <Describe the structure of this section>
   
 ## Functional Requirements
   
-### <Name of Feature 1>
+## Login Page
 | ID | Requirement |
 | :-------------: | :----------: |
-| FR1 | <Requirement 1> |
-| FR2 | <Requirement 2> |
-| FR3 | <Requirement 3> |
+| FR1 | Login page shall consist of two fields which are username and password. |
+| FR2 | Login page shall be accessible for both doctor and patient. |
+| FR3 | After entering the required details, Doctor and patient shall be redirected to their respective dashboards. |
+| FR4 | For incorrect login credentials application shall display a popup message – “Invalid username and password”.|
+| FR5 | USer shall be provided an option to change the password by clicking on Forgot Password link.|
 | … | … | … |
-### <Name of Feature 2>
+
+### Dashboard – Doctor
 | ID | Requirement |
 | :-------------: | :----------: |
-| FR4 | <Requirement 1> |
-| FR5 | <Requirement 2> |
-| FR6 | <Requirement 3> |
-| … | … |
+| FR6 | Doctor shall be able to onboard a patient and provide access to the application.|
+| FR7 | The website shall provide a dashboard with patient information. |
+| FR8 | The doctor shall be able to see and analyze the survey findings in real time. |
+| FR9 | Doctor shall be able to notify patient if patient fails to take survey on daily basis.|
+| FR10 | Following the doctors review, patient survey records shall be marked as completed. |
+| … | … | … |
+
+### Dashboard- Patient
+| ID | Requirement |
+| :-------------: | :----------: |
+| FR11 | System shall display links providing exercise videos which will improve the patient regimen.|
+| FR12 | Based on the patient's health condition, the system shall display medical information on the patient dashboard |
+| FR13 | Survey shall be triggered to the patient on daily basis to capture the responses and other vital information. |
+| FR14 | After being onboarded, the patient shall have access to the contact information for the relevant doctor, which they shall be able to use in the event of an emergency. |
+| FR15 | Patient shall be prompted to answer the assigned questions which will ease the recovery allowing their doctors to understand their health status and interact accordingly. |
+| … | … | … |
+
+### Manage Patients
+| ID | Requirement |
+| :-------------: | :----------: |
+| FR16 | The doctor will be able to make changes to the patient's information. |
+| FR17 | Doctor shall be able to reset the password on patient's request. |
+| FR18 | An email with user credentials shall be sent to the patient once the doctor creates a patient record in the system. |
+| FR19 | When a patient's therapy is over, the doctor shall be able to offboard them .|
+| FR20 | The patient shall be notified through email once the doctor offboards the patient, and access to the patient application will be blocked .|
+| … | … | … |
+
+### Onboard Patient
+| ID | Requirement |
+| :-------------: | :----------: |
+| FR21 | Doctor shall be able to add new patients to the system by entering patient details. |
+| FR22| The patient shall be alerted through email with a username, temporary password to access the site. |
+| FR23| Patient shall be able to take the assigned survey on a daily basis.  |
+| FR24 | Doctor can email patient in case of emergency. |
+| FR25 | All the mandetory fields shall be required to onbaord a patient.|
   
 ## Non-Functional Requirements
   
@@ -29,7 +66,7 @@ your SRS>
 | NFR1 | Patient Identification: The system shall identify the patient with the credentials provided. |
 | NFR2 | Login: A Login ID and password shall be required for all the users who use the system. |
 | NFR3 | Modifications: Any changes like insert, delete, update, etc. for the database shall be synchronized quickly. |
-| NFR4 | Staff Rights: The staff shall be able to view any data in the Patient Management system. |
+| NFR4 | Staff Rights: The staff shall be able to view any data in the Patient Management system and add new patients record to the system. |
 | NFR5 | Inactivity: User shall be logged off if he is inactive for most of his login duration. |
 
   
