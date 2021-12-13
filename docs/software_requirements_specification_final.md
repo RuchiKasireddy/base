@@ -23,10 +23,10 @@ your SRS>
   
 ## Non-Functional Requirements
   
-### <Name of Feature 1>
+### Security
 | ID | Requirement |
 | :-------------: | :----------: |
-| NFR1 | <Non-Functional Requirement 1> |
+| NFR1 | <Patient Identification: The system shall identify the patient with the credentials provided.> |
 | NFR2 | < Non-Functional Requirement 2> |
 | NFR3 | < Non-Functional Requirement 3> |
 | … | … | … |
