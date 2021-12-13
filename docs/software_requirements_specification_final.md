@@ -64,11 +64,11 @@ your SRS>
 ### Privacy
 | ID | Requirement |
 | :-------------: | :----------: |
-| NFR11 | The system shall ensure the privacy of the communication between the patient and doctor. |
-| NFR12 | The system shall enforce the privacy of patient survey results, which will be shared with the caregiver. |
-| NFR13 | The system shall ensure the confidentiality of details of consultation. |
-| NFR14 | The system shall ensure protection of patient's health information. |
-| NFR15 | Patient information shall be disclosed only when the patient has agreed it to be used or disclosed for any specific purposes. |
+| NFR21 | The system shall ensure the privacy of the communication between the patient and doctor. |
+| NFR22 | The system shall enforce the privacy of patient survey results, which will be shared with the caregiver. |
+| NFR23 | The system shall ensure the confidentiality of details of consultation. |
+| NFR24 | The system shall ensure protection of patient's health information. |
+| NFR25 | Patient information shall be disclosed only when the patient has agreed it to be used or disclosed for any specific purposes. |
   
   
 # Change management plan
