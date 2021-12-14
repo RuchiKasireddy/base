@@ -115,9 +115,14 @@ The document contains a full description of the "HEAL EXPERT" requirements. It w
 
 New requirements will necessitate changes in people's work habits, which can be challenging. Changes will be minimal in some circumstances but can be significant in others. To get started with, the workflow of the application must be clearly explained to all the stakeholders and all the potential problems which might arise while implementation must be addressed. At the unit level, it will be important to involve frontline staff and physicians as this will ensure improvement of procedures if needed. staff must be involved and be able to give suggestions on how to personalize the program for it to be a success. Proper management support and training resources will be provided for the staff to get more involved in the application use. Assist staff in fully accepting the new procedures and ensuring that they understand they offer promising ways for providing high-quality patient care. It is important to ensure that staff are aware of their responsibilities and that they have the necessary knowledge and resources to carry them out. Also, the staff will be guided and assisted the execution effort as the new practices are rolled out across the application to effectively manage the change process. Staff should be involved in defining challenges and testing solutions so that they feel ownership of the changes and see the potential for success.
   
+  
 **How will you ensure it integrates within their ecosystem / software?**
 
 The data that is produced and added to this software can be helpful to integrate with the system that is used to manage hospitals. For example, the data of patients and doctors that oversee a certain patient help to maintain a record of the whole time the patient stays within the hospital and the medication taken place. The data collected through this system can be integrated into the management system of hospital to find the beds available, doctor shifts, average occupancy of the hospital and also helps to assign vacated spots to new patients. This can overtake the other calender and dashboard systems used by doctors as the dashboard of the current application helps to keep track of daily tasks to go through and also help to maintain records of doctors attendance with every patient. The medication data present per patient helps the finance department and the medicinal store of the hospital to keep track of the patients bill of materials used and also helps to upkeep their inventory of medicinal supplies thus also acting as a datasource interms of inventory. Thus this system integration within the already existing software will reduce the burden of the employee and centralizes the whole system which can share and get the required data.
+
+  
+How will you ensure that it any discovered issues are resolved?
+
 
   
 # Traceability links
