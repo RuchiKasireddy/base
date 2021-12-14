@@ -5,7 +5,7 @@
 The document contains a full description of the "HEAL EXPERT" requirements. It will demonstrate the application's goal and overall flow.
 
 ## Software Requirements
-<Describe the structure of this section>
+The software requirements are a list of the target system's characteristics and functions. Users' expectations of the software product are expressed in requirements. From the client's perspective, the requirements might be evident or buried, known or unknown, expected or unexpected.
   
 ## Functional Requirements
   
@@ -109,7 +109,7 @@ The document contains a full description of the "HEAL EXPERT" requirements. It w
   
   
 # Change management plan
-<Description of what this section is>
+Change management- When implementing change in a company, a change management strategy describes actions and roles for managing and controlling change. Businesses must continually incorporate change in order to prosper. Business must constantly evaluate and adapt what it offers to consumers, as well as how essential procedures are performed, who is responsible, and how improvement is accomplished. Because running a business may be a trial and error process, firms must be quick and nimble in their response to change in order to thrive
   
 **How will you train people to use it?**
 
