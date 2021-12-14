@@ -46,7 +46,7 @@ The software requirements are a list of the target system's characteristics and 
 | FR17 | Doctor shall be able to reset the password on patient's request. |
 | FR18 | An email with user credentials shall be sent to the patient once the doctor creates a patient record in the system. |
 | FR19 | When a patient's therapy is over, the doctor shall be able to offboard them .|
-| FR20 | The patient shall be notified through email once the doctor offboards the patient, and access to the patient application will be blocked .|
+| FR20 | The patient access to the application shall be blocked once the doctor offboards the patient. |
 | … | … | … |
 
 ### Onboard Patient
@@ -137,12 +137,12 @@ With the requirements taken, the developer shall have an idea of challenges that
 ## Class Diagram Traceability
 | Artifact Name | Requirement ID |
 | :-------------: |:----------: |
-| Login | NFR1, NFR2,NFR9, FR1, FR2, FR3, FR4 |
-| Doctor | NFR3, FR5 |
-| Patient | NFR3, FR5 |
-| Daily Report | NFR3, FR5 |
+| Login | NFR1, NFR2,NFR7, NFR9,NFR10, FR1, FR2, FR3, FR4 |
+| Doctor | NFR4, NFR5, NFR6, NFR8, FR5, FR6, FR7, FR8, FR9, FR10 |
+| Patient | NFR5, NFR7, NFR8, FR11, FR12, FR14 |
+| Daily Report | NFR8, FR13, FR15 |
 | Forgetpwd | NFR3, FR5 |
-| Notification | NFR3, FR5 |
+| Notification | FR9, FR18 |
 | … | … | … |
   
 ## Activity Diagram Traceability
