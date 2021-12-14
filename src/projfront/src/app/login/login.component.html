@@ -1,0 +1,99 @@
+<ngx-ui-loader></ngx-ui-loader>
+<div class="container-fluid " *ngIf = "isloading">
+    <div class="row">
+        <div class="col-lg-4 col-md-4 col-sm bg-dange pr-0 pl-0 imgs">
+            <img src="../../assets/1.png" alt="life">
+        </div>
+        <div class="col-lg-8 col-md-5 col-sm">
+            <div class="form" [formGroup]="loginForm">
+                <h2 class="text">Log In</h2>
+                <h6 style="color: red;margin-bottom: 5px;" *ngIf="isPasswordMatch">Please Enter Correct Email/Password</h6>
+                <div class="form-floating mb-4">
+                    <mat-form-field class="mat-form-field-fluid" style="width: 100%;">
+                        <input matInput placeholder="Email" autocomplete="off" formControlName="email" />
+                        <mat-error>Email
+                            <strong>required</strong>
+                        </mat-error>
+                        <mat-hint align="start">Enter
+                            <strong>Email</strong>
+                        </mat-hint>
+                    </mat-form-field>
+                    <!-- <label for="floatingInput">Username or Email Address*</label> -->
+                    <!-- <input type="email" class="form-control" id="floatingInput" formControlName="email" placeholder="name@example.com"> -->
+                    <!-- <mat-error *ngIf="isControlHasError('email','email')">
+                        <strong style="color: red;">Invalid</strong>
+                    </mat-error> -->
+                </div>
+                <div class="form-floating">
+                    <!-- <label for="floatingPassword">Password*</label>
+                    <input type="password" class="form-control" formControlName="password" id="floatingPassword" placeholder="Password">
+                    <mat-error *ngIf="isControlHasError('password','minLength')">
+                        <strong>Password Should have min 8 Char</strong>
+                    </mat-error> -->
+                    <mat-form-field class="mat-form-field-fluid" style="width: 100%;">
+                        <input type="password" matInput placeholder="Password" autocomplete="off" formControlName="password" />
+                        <mat-error>Password
+                            <strong>required</strong>
+                        </mat-error>
+                        <mat-hint align="start">Enter
+                            <strong>Password</strong>
+                        </mat-hint>
+                    </mat-form-field>
+                </div>
+                <div>
+                    <a href="/forgot-password">Forgot Password</a>
+                </div>
+                <button mat-raised-button color="primary" (click)="submit()" style="float: right;">
+                    <div style=" display: flex;flex-direction: row; align-items: center;">
+                        <span>Sign In</span><span><mat-spinner style="margin-left: 5px;" color="accent" diameter="20" *ngIf="isloadinSpnnier"></mat-spinner></span>
+                    </div>
+                </button>
+                <!-- <button class="btn btn-dark" (click)="submit()">Log In</button> -->
+            </div>
+            <!-- <form class="form" [formGroup]="loginForm" autocomplete="off">
+                <div class="form-group">
+                    <h2 class="text">Log In</h2>
+                    <mat-form-field>
+                        <mat-label>Enter email</mat-label>
+                        <input matInput type="email" placeholder="Email" formControlName="email" autocomplete="off"/> -->
+                        <!-- <mat-error *ngIf="isControlHasError('email','required')">
+                            <strong>Email is required</strong>
+                        </mat-error> -->
+                        <!-- <mat-error *ngIf="isControlHasError('email','email')">
+                            <strong>{{ 'AUTH.VALIDATION.INVALID_FIELD' | translate }}</strong>
+                        </mat-error>
+                        <mat-error *ngIf="isControlHasError('email','minLength')">
+                            <strong>{{ 'AUTH.VALIDATION.MIN_LENGTH_FIELD' | translate }} 3</strong>
+                        </mat-error>
+                        <mat-error *ngIf="isControlHasError('email','maxLength')">
+                            <strong>{{ 'AUTH.VALIDATION.MAX_LENGTH_FIELD' | translate }} 320</strong>
+                        </mat-error> -->
+                    <!-- </mat-form-field>
+                </div>
+                <div class="form-group">
+                    <mat-form-field>
+                        <mat-label>Enter Password</mat-label>
+                        <input matInput type="password" placeholder="Password" formControlName="password" autocomplete="off"/> -->
+                        <!-- <mat-error *ngIf="isControlHasError('password','required')">
+                            <strong>{{ 'AUTH.VALIDATION.REQUIRED_FIELD' | translate }}</strong>
+                        </mat-error>
+                        <mat-error *ngIf="isControlHasError('password','minLength')">
+                            <strong>{{ 'AUTH.VALIDATION.MIN_LENGTH_FIELD' | translate }} 3</strong>
+                        </mat-error> -->
+                        <!-- <mat-error *ngIf="isControlHasError('password','maxLength')">
+                            <strong>Password Should have min 8 Char</strong>
+                        </mat-error>
+                    </mat-form-field> -->
+                <!-- </div> -->
+                <!--begin::Action-->
+                <!-- <div class="kt-login__actions"> -->
+                    <!-- <a href="javascript:;" routerLink="/web/forgot-password" class="kt-link kt-login__link-forgot">
+                        {{ 'AUTH.GENERAL.FORGOT_BUTTON' | translate }}
+                    </a> -->
+                    <!-- <button (click)="submit()" >Login</button>
+                </div> -->
+                <!--end::Action-->
+            <!-- </form> -->
+        </div>
+    </div>
+</div>

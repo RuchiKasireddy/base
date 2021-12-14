@@ -1,0 +1,42 @@
+<h1 mat-dialog-title style="margin: auto;">Review</h1>
+<hr style="margin: 0px;">
+<div mat-dialog-content style="padding: 15px;" [formGroup]="ReviewForm">
+    <div class="container">
+
+    <div class="row" style="margin-left: 10px;">
+        <div class="col-5">
+            <mat-form-field class="mat-form-field-fluid" >
+                <input matInput placeholder="What is your pain level today?" formControlName="pain" readonly/>
+            </mat-form-field>
+        </div>
+        <div class="col-5">
+            <mat-form-field class="mat-form-field-fluid">
+                <input matInput placeholder="Were you able to work today?" formControlName="ableToWork" readonly/>
+            </mat-form-field>
+        </div>
+        <div class="col-5">
+            <mat-form-field class="mat-form-field-fluid">
+                <input matInput placeholder="Describe your pain?" formControlName="describe" readonly/>
+            </mat-form-field>
+        </div>
+        <div class="col-12">
+            <mat-form-field class="mat-form-field-fluid">
+                <input matInput placeholder="Review" formControlName="review" />
+                <mat-error>Review is
+                    <strong>required</strong>
+                </mat-error>
+                <mat-hint align="start">Enter
+                    <strong>Review</strong>
+                </mat-hint>
+            </mat-form-field>
+        </div>
+    </div>
+</div>
+
+</div>
+<hr style="margin: 0px;">
+<div mat-dialog-actions>
+    <button mat-button mat-raised-button class="btn btn-outline-primary">No Thanks</button>
+    <button mat-button mat-raised-button cdkFocusInitial class="btn btn-outline-primary"
+        (click)="sendReview()">Ok</button>
+</div>

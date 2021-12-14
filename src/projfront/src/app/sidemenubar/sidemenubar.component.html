@@ -1,0 +1,31 @@
+<div class="nav flex-column flex-nowrap vh-100 overflow-auto text-white side-bar-css">
+    <div class="items">
+        <div class="item" (click)="cahngeTab(1)"
+            [ngStyle]="{'border-bottom-right-radius':isSelected == 1? '20px': '4px','border-top-right-radius': isSelected ==1?'20px':'4px','background-color': isSelected ==1? '#c2e0e1': ''}">
+            <h6 style="font-size: initial; display: flex; align-items: center; margin-left: 10%;">
+                <mat-icon>dashboard</mat-icon>Dashboard
+            </h6>
+        </div>
+        <div class="item" (click)="cahngeTab(2)" *ngIf="user.user.type == 0"
+            [ngStyle]="{'border-bottom-right-radius':isSelected == 2? '20px': '4px','border-top-right-radius': isSelected ==2?'20px':'4px','background-color': isSelected ==2? '#c2e0e1': ''}">
+            <h6 style="font-size: initial;display: flex; align-items: center; margin-left: 10%;">
+                <mat-icon>person_add</mat-icon>Onboard Patient
+            </h6>
+        </div>
+
+        <div class="item" (click)="cahngeTab(4)" *ngIf="user.user.type == 0"
+            [ngStyle]="{'border-bottom-right-radius':isSelected == 4? '20px': '4px','border-top-right-radius': isSelected ==4?'20px':'4px','background-color': isSelected ==4? '#c2e0e1': ''}">
+            <h6 style="font-size: initial;display: flex; align-items: center; margin-left: 10%;">
+                <mat-icon>people</mat-icon>Manage Patients
+            </h6>
+        </div>
+    </div>
+    <div>
+        <div class="item" (click)="logout()"
+            [ngStyle]="{'border-bottom-right-radius':isSelected == 3? '20px': '4px','border-top-right-radius': isSelected ==3?'20px':'4px','background-color': isSelected ==3? '#c2e0e1': ''}">
+            <h6 style="font-size: initial;display: flex; align-items: center; margin-left: 10%;">
+                <mat-icon>power_settings_new</mat-icon>Logout
+            </h6>
+        </div>
+    </div>
+</div>

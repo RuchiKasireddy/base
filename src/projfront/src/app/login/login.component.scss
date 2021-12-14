@@ -1,0 +1,174 @@
+* {
+    margin: 0px 0px 0px 0px;
+  }
+  .imgs {
+    padding: 0px 0px 0px 0px;
+  }
+img {
+    padding: 0px 0px 0px 0px;
+    background-position: cover;
+    width: 500px;
+    height: 100vh;
+  }
+  .text {
+    margin: 125px 0 50px 0px;
+    font-family: "Andada Pro", serif;
+    font-family: "Open Sans", sans-serif;
+    align-items: center;
+  }
+  .form {
+    width: 400px;
+    height: 0px;
+    margin: 80px 0 0 200px;
+  }
+  .btn {
+    margin: 70px 0 0 10px;
+    width: 400px;
+    border-radius: 20px;
+    font-size: 20px;
+  }
+  
+  @media (max-width: 1200px) {
+    .form {
+      width: 400px;
+      height: 0px;
+      margin: 80px 0 0 200px;
+    }
+    .imgs img {
+      padding: 0px 0px 0px 0px;
+      background-position: cover;
+      width: 500px;
+      height: 662px;
+    }
+  }
+  @media (max-width: 1024px) {
+    .form {
+      width: 400px;
+      height: 0px;
+      margin: 80px 0 0 200px;
+    }
+    .imgs img {
+      padding: 0px 0px 0px 0px;
+      background-position: cover;
+      width: 500px;
+      height: 657px;
+    }
+  }
+  @media (max-width: 992px) {
+    .form {
+      width: 400px;
+      height: 0px;
+      margin: 80px 0 0 150px;
+    }
+    .imgs img {
+      padding: 0px 0px 0px 0px;
+      background-position: cover;
+      width: 430px;
+      height: 662px;
+    }
+  }
+  
+  @media (max-width: 861px) {
+    .form {
+      width: 400px;
+      height: 0px;
+      margin: 0px 0 0 60px;
+    }
+    .imgs img {
+      padding: 0px 0px 0px 0px;
+      background-position: cover;
+      width: 300px;
+      height: 707px;
+    }
+  }
+  @media (max-width: 779px) {
+    .form {
+      width: 400px;
+      height: 0px;
+      margin: 0px 0px 0 0px;
+    }
+    .imgs img {
+      padding: 0px 0px 0px 0px;
+      background-position: cover;
+      width: 204px;
+      height: 660px;
+      position: absolute;
+      z-index: -1;
+    }
+    .btn {
+      position: absolute;
+    }
+    .text {
+      z-index: 1;
+    }
+  }
+  @media (max-width: 626px) {
+    .form {
+      width: 400px;
+      height: 0px;
+      margin: 0px 0px 0 0px;
+    }
+    .imgs img {
+      padding: 0px 0px 0px 0px;
+      background-position: cover;
+      width: 174px;
+      height: 660px;
+      position: absolute;
+      z-index: -1;
+    }
+    .btn {
+      position: absolute;
+    }
+    .text {
+      z-index: 1;
+    }
+  }
+  
+  @media (max-width: 586px) {
+    .form {
+      width: 400px;
+      height: 0px;
+      margin: 0px 10px 0 100px;
+    }
+    .imgs img {
+      padding: 0px 0px 0px 0px;
+      background-position: cover;
+      width: 100px;
+      height: 659px;
+      position: absolute;
+      z-index: -1;
+    }
+    .btn {
+      position: absolute;
+    }
+    .text {
+      z-index: 1;
+    }
+  }
+  @media (max-width: 524px) {
+    .form {
+      width: 400px;
+      height: 0px;
+      margin: 0px 0px 0 40px;
+    }
+    .imgs img {
+      padding: 0px 0px 0px 0px;
+      background-position: cover;
+      width: 523px;
+      height: 931px;
+      position: absolute;
+      z-index: -1;
+    }
+    .btn {
+      position: absolute;
+      margin: 70px 0 0 0px;
+    }
+    .text {
+      z-index: 1;
+    }
+  }
+  .mat-spinner {
+    ::ng-deep circle {
+        stroke: #FFF;
+    }
+}

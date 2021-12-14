@@ -1,0 +1,57 @@
+<h1 mat-dialog-title style="margin: auto;">User Edit</h1>
+<hr style="margin: 0px;">
+<div mat-dialog-content style="padding: 15px;" [formGroup]="ReviewForm">
+    <div class="row" style="margin-left: 10px;">
+    <div class="col-3">
+        <mat-form-field class="mat-form-field-fluid">
+            <input matInput placeholder="Name"  formControlName="name" />
+            <mat-error>Name is
+                <strong>required</strong>
+            </mat-error>
+            <mat-hint align="start">Enter
+                <strong>Name</strong>
+            </mat-hint>
+        </mat-form-field>
+    </div>
+    <div class="col-4">
+        <mat-form-field class="mat-form-field-fluid">
+            <input matInput placeholder="PhoneNumber"  formControlName="phoneNumber" />
+            <mat-error>PhoneNumber
+                <strong>required</strong>
+            </mat-error>
+            <mat-hint align="start">Enter
+                <strong>PhoneNumber</strong>
+            </mat-hint>
+        </mat-form-field>
+    </div><div class="col-4">
+        <mat-form-field class="mat-form-field-fluid">
+            <input matInput placeholder="Asset Name"  formControlName="age" />
+            <mat-error>Age is
+                <strong>required</strong>
+            </mat-error>
+            <mat-hint align="start">Enter
+                <strong>Age</strong>
+            </mat-hint>
+        </mat-form-field>
+    </div><div class="col-4">
+        <mat-form-field class="mat-form-field-fluid">
+            <mat-select placeholder="Condition" disableOptionCentering matTooltip="Select Condition" formControlName="condition">
+                <!-- <mat-option [value]="1" *ngIf = "unAssignedUser">Unassigned</mat-option> -->
+                <mat-option *ngFor="let o of data.condition" [value]="o._id">{{o.name}}
+                </mat-option>
+              </mat-select>
+            <mat-error>Condition is 
+                <strong>required</strong>
+            </mat-error>
+            <mat-hint align="start">Enter
+                <strong>Condition</strong>
+            </mat-hint>
+        </mat-form-field>
+    </div>
+</div>
+</div>
+<hr style="margin: 0px;">
+<div mat-dialog-actions>
+  <button mat-button mat-raised-button class="btn btn-outline-primary" (click)="onNoClick()">No Thanks</button>
+  <button mat-button  mat-raised-button cdkFocusInitial class="btn btn-outline-primary" (click)="onSubmit()">Ok</button>
+</div>

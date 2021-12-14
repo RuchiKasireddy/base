@@ -1,0 +1,28 @@
+<div *ngIf=!data.takeSurvey>
+    <h1 mat-dialog-title style="margin: auto;">Alert</h1>
+    <hr style="margin: 0px;">
+    <div mat-dialog-content style="padding: 15px;">
+      <p style=" margin-left: 10px;">Are you sure you want to offboard?</p>
+      
+    </div>
+    <hr style="margin: 0px;">
+    <div mat-dialog-actions>
+      <button mat-button mat-raised-button (click)="Cancel()">No Thanks</button>
+      <button mat-button  mat-raised-button cdkFocusInitial (click)="submit()">Ok</button>
+    </div>
+</div>
+
+<div class="row" *ngIf=data.takeSurvey>
+    <div class="col-6">
+        <img src="https://www.mnhealthycommunities.org/wp-content/uploads/2019/10/MentalHealth-1.gif" alt="" height="300" width="300">
+    </div>
+    <div class="col-6" style="display: flex; flex-direction: column; align-items: center;justify-content: center;">
+        <div>
+            <h1 style="color: mediumblue; font-size: 20px;">There is a survey pending to be complete, Let's just knock it of!</h1>
+        </div>
+        <div>
+            <button type="button" mat-button mat-raised-button class="btn btn-outline-success" style="margin-right: 5px;" (click)="submit()">Click Me</button>
+        </div>
+    </div>
+</div>
+

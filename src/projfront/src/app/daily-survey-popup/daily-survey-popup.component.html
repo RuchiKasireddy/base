@@ -1,0 +1,94 @@
+<mat-tab-group animationDuration="1000ms" [selectedIndex]="selectedIndex" (selectedTabChange)="tabChanged($event)">
+    <mat-tab label="Q1" style="color: chartreuse;">
+        <div class="container">
+            <div class="row"
+                style="display: flex; flex-direction: column; align-items: center; justify-content: center; ">
+                <div class="col-5 mt-3">
+                    <img src="https://i.stack.imgur.com/i6NG3.gif"
+                        alt="" height="200" width="300">
+                </div>
+                <div mat-dialog-content style="padding: 15px;" [formGroup]="dailyReport">
+                    <div class="row" style="margin-left: 10px;">
+                        <div class="col-5">
+                            <mat-form-field class="mat-form-field-fluid">
+                                
+                                    <mat-label>Were you able to work today?</mat-label>
+                                    <mat-select formControlName="quastion1">
+                                      <mat-option value="Yes">Yes</mat-option>
+                                      <mat-option value="No">No</mat-option>
+                                    </mat-select>
+                                  
+                                <!-- <input matInput placeholder="Were you able to work today?" autocomplete="off"
+                                    formControlName="quastion1" />
+                                <mat-error>Field is
+                                    <strong>required</strong>
+                                </mat-error> -->
+                            </mat-form-field>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div style="float: right;margin-bottom: 10px;">
+                <button mat-button mat-raised-button cdkFocusInitial class="btn btn-outline-primary"
+                    (click)="onSubmit('quastion1')">Next</button>
+            </div>
+        </div>
+    </mat-tab>
+    <mat-tab label="Q2" [disabled]="!trackingTabs.quastion1">
+        <div class="container">
+            <div class="row"
+                style="display: flex; flex-direction: column; align-items: center; justify-content: center; ">
+                <div class="col-5 mt-3">
+                    <img src="https://media1.thehungryjpeg.com/thumbs/800_3550556_kweibkvk6e0dhoddf8m7vteexxlkipwxldgpi8wy.jpg"
+                        alt="" height="200" width="300">
+                </div>
+                <div mat-dialog-content style="padding: 15px;" [formGroup]="dailyReport">
+                    <div class="row" style="margin-left: 10px;">
+                        <div class="col-5">
+                            <mat-form-field class="mat-form-field-fluid">
+                                <input matInput type="number" placeholder="What is your pain level today?" min=0 max=10 autocomplete="off"
+                                    formControlName="quastion2" />
+                                <mat-error>
+                                    <strong>Required</strong>
+                                </mat-error>
+                            </mat-form-field>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div style="float: right;margin-bottom: 10px;">
+                <button mat-button mat-raised-button cdkFocusInitial class="btn btn-outline-primary"
+                    (click)="onSubmit('quastion2')">Next</button>
+            </div>
+        </div>
+    </mat-tab>
+    <mat-tab label="Q3" [disabled]="!trackingTabs.quastion2">
+        <div class="container">
+            <div class="row"
+                style="display: flex; flex-direction: column; align-items: center; justify-content: center; ">
+                <div class="col-5 mt-3">
+                    <img src="https://www.onoursleeves.org/-/media/onoursleeves/gifs/800x800/exclamation-point.ashx?la=en&hash=0ECC38D8F0428877D7EF2A7AD88380B8"
+                        alt="" height="150" width="200" style ="margin-left: 50px;">
+                </div>
+                <div mat-dialog-content style="padding: 15px;" [formGroup]="dailyReport">
+                    <div class="row" style="margin-left: 10px;">
+                        <div class="col-5">
+                            <mat-form-field class="mat-form-field-fluid">
+                                <textarea matInput placeholder="Describe your pain?" autocomplete="off"
+                                    formControlName="quastion3" ></textarea>
+                                <mat-error>
+                                    <strong>Required</strong>
+                                </mat-error>
+                            </mat-form-field>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div style="float: right; margin-bottom: 10px;">
+                <button mat-button mat-raised-button cdkFocusInitial class="btn btn-outline-primary"
+                    (click)="onSubmit('Submit')">Submit</button>
+            </div>
+        </div>
+    </mat-tab>
+
+</mat-tab-group>
