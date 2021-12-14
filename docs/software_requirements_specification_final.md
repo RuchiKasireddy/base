@@ -73,7 +73,7 @@ The document contains a full description of the "HEAL EXPERT" requirements. It w
 ### Performance
 | ID | Requirement |
 | :-------------: | :----------: |
-| NFR6 | Responsiveness : The system shall display confirmation message in less than two second once the patient's information is changed/updated. |
+| NFR6 | Responsiveness: The system shall display confirmation message in less than two second once the patient's information is changed/updated. |
 | NFR7 | Capacity: The system shall support at least 100 users at once. |
 | NFR8 | User-Interface: The user interface shall acknowledge within five seconds. |
 | NFR9 | Login: The system shall allow every user to sign in within 5 seconds. |
@@ -94,7 +94,7 @@ The document contains a full description of the "HEAL EXPERT" requirements. It w
 | :-------------: | :----------: |
 | NFR16 | Reliability: The system shall be easy to work with and should be available all day for use. |
 | NFR17 | The application shall be self‐explanatory. |
-| NFR18 |   Efficiency: The system shall be efficient in handling the capacity, throughput and response time. |
+| NFR18 |   Efficiency: The system shall be efficient in handling the capacity, throughput, and response time. |
 | NFR19 | The user interface of the application should be designed in such a way that patients and doctors shall not go through the hassle of searching for things to interact with. |
 | NFR20 | Patients and Doctors shall be trained on how to use the application. |
   
@@ -118,7 +118,7 @@ New requirements will necessitate changes in people's work habits, which can be 
   
 **How will you ensure it integrates within their ecosystem / software?**
 
-The data that is produced and added to this software can be helpful to integrate with the system that is used to manage hospitals. For example, the data of patients and doctors that oversee a certain patient help to maintain a record of the whole time the patient stays within the hospital and the medication taken place. The data collected through this system can be integrated into the management system of hospital to find the beds available, doctor shifts, average occupancy of the hospital and also helps to assign vacated spots to new patients. This can overtake the other calender and dashboard systems used by doctors as the dashboard of the current application helps to keep track of daily tasks to go through and also help to maintain records of doctors attendance with every patient. The medication data present per patient helps the finance department and the medicinal store of the hospital to keep track of the patients bill of materials used and also helps to upkeep their inventory of medicinal supplies thus also acting as a datasource interms of inventory. Thus this system integration within the already existing software will reduce the burden of the employee and centralizes the whole system which can share and get the required data.
+The data that is produced and added to this software can be helpful to integrate with the system that is used to manage hospitals. For example, the data of patients and doctors that oversee a certain patient help to maintain a record of the whole time the patient stays within the hospital and the medication taken place. The data collected through this system can be integrated into the management system of hospital to find the beds available, doctor shifts, average occupancy of the hospital and helps to assign vacated spots to new patients. This can overtake the other calendar and dashboard systems used by doctor's as the dashboard of the current application helps to keep track of daily tasks to go through and also help to maintain records of doctors attendance with every patient. The medication data present per patient helps the finance department and the medicinal store of the hospital to keep track of the patient's bill of materials used and also helps to upkeep their inventory of medicinal supplies thus also acting as a data source in terms of inventory. Thus, this system integration within the already existing software will reduce the burden of the employee and centralizes the whole system which can share and get the required data.
 
   
 **How will you ensure that it any discovered issues are resolved?**
