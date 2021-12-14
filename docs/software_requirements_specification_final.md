@@ -109,11 +109,12 @@ The document contains a full description of the "HEAL EXPERT" requirements. It w
   
   
 # Change management plan
-<Description of what this section is>
+  
+A change management plan is a blueprint that for a company's implementation and execution of the change management process. It defines the scope of recommended changes by outlining the fixes and all the organizational changes.
   
 **How will you train people to use it?**
 
-New requirements will necessitate changes in people's work habits, which can be challenging. Changes will be minimal in some circumstances but can be significant in others. To get started with, the workflow of the application must be clearly explained to all the stakeholders and all the potential problems which might arise while implementation must be addressed. At the unit level, it will be important to involve frontline staff and physicians as this will ensure improvement of procedures if needed. staff must be involved and be able to give suggestions on how to personalize the program for it to be a success. Proper management support and training resources will be provided for the staff to get more involved in the application use. Assist staff in fully accepting the new procedures and ensuring that they understand they offer promising ways for providing high-quality patient care. It is important to ensure that staff are aware of their responsibilities and that they have the necessary knowledge and resources to carry them out. Also, the staff will be guided and assisted the execution effort as the new practices are rolled out across the application to effectively manage the change process. Staff should be involved in defining challenges and testing solutions so that they feel ownership of the changes and see the potential for success.
+HealExpert keeps doctors in touch with their chronic pain patients on a daily basis by tracking medication and treatment plan adherence via an easy-to-use app. We give clinicians detailed patient information. New requirements to the will necessitate changes in people's work habits, which can be challenging. Changes will be minimal in some circumstances but can be significant in others. To get started with, the workflow of the application must be clearly explained to all the stakeholders and all the potential problems which might arise while implementation must be addressed. At the unit level, it will be important to involve frontline staff and physicians as this will ensure improvement of procedures if needed. staff must be involved and be able to give suggestions on how to personalize the program for it to be a success. Proper management support and training resources will be provided for the staff to get more involved in the application use. Assist staff in fully accepting the new procedures and ensuring that they understand they offer promising ways for providing high-quality patient care. It is important to ensure that staff are aware of their responsibilities and that they have the necessary knowledge and resources to carry them out. Also, the staff will be guided and assisted the execution effort as the new practices are rolled out across the application to effectively manage the change process. Staff should be involved in defining challenges and testing solutions so that they feel ownership of the changes and see the potential for success.
   
   
 **How will you ensure it integrates within their ecosystem / software?**
@@ -137,7 +138,11 @@ With the requirements taken, the developer shall have an idea of challenges that
 ## Class Diagram Traceability
 | Artifact Name | Requirement ID |
 | :-------------: |:----------: |
-| classPlayer | NFR3, FR5 |
+| Login | NFR1, NFR2, NFR5, FR1, FR2 |
+| Doctor |  |
+| Patient | |
+| Dailyreport | |
+| Forgetpwd |  |
 | … | … | … |
   
 ## Activity Diagram Traceability
