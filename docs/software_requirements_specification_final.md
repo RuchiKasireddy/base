@@ -142,7 +142,7 @@ With the requirements taken, the developer shall have an idea of challenges that
 | Patient | NFR5, NFR7, NFR8, FR11, FR12, FR14 |
 | Daily Report | NFR8, FR13, FR15 |
 | Forgetpwd | NFR3, FR5 |
-| Notification | FR9, FR18 |
+| Notification | NFR16, NFR17, FR9, FR18 |
 | … | … | … |
   
 ## Activity Diagram Traceability
