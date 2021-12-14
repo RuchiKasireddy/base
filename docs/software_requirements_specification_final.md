@@ -137,7 +137,12 @@ With the requirements taken, the developer shall have an idea of challenges that
 ## Class Diagram Traceability
 | Artifact Name | Requirement ID |
 | :-------------: |:----------: |
-| classPlayer | NFR3, FR5 |
+| Login | NFR1, NFR2,NFR9, FR1, FR2, FR3, FR4 |
+| Doctor | NFR3, FR5 |
+| Patient | NFR3, FR5 |
+| Daily Report | NFR3, FR5 |
+| Forgetpwd | NFR3, FR5 |
+| Notification | NFR3, FR5 |
 | … | … | … |
   
 ## Activity Diagram Traceability
