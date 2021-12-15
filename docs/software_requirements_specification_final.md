@@ -107,8 +107,7 @@ The software requirements are a list of the target system's characteristics and 
 | NFR24 | The system shall ensure protection of patient's health information. |
 | NFR25 | Patient information shall be disclosed only when the patient has agreed it to be used or disclosed for any specific purposes. |
   
-  
-
+\ 
 # Change management plan
 Change management- When implementing change in a company, a change management strategy describes actions and roles for managing and controlling change. Businesses must continually incorporate change in order to prosper. Business must constantly evaluate and adapt what it offers to consumers, as well as how essential procedures are performed, who is responsible, and how improvement is accomplished. Because running a business may be a trial and error process, firms must be quick and nimble in their response to change in order to thrive
   
@@ -126,8 +125,7 @@ The data that is produced and added to this software can be helpful to integrate
 
 With the requirements taken, the developer shall have an idea of challenges that may arise during development and before the application goes into production. Most of the discovered issues shall be resolved by web testing, where before the website goes live and is accessible to the public, we tested it for potential flaws. Functionality, Security, Performance, which are the main testing activities that should be tested thoroughly. Functionality testing entails a variety of testing characteristics, including user interface, APIs, database testing, security, server testing, and fundamental website functionalities. Functional testing is quite handy since it allows users to do both manual and automated tests. It is carried out to check the functionality of each website attribute. We checked forms in the application and confirmed they are functioning normally. If a user does not input a necessary field, an error message will display. We made sure that the data submitted in forms to a database is linked to an email address. We checked Business flow from end to end which navigates the user through multiple web pages to finish the process. Performed negative testing as well, where a user takes an unexpected action, the web application displays the relevant error message. Website navigation was tested where buttons or links that navigate to different pages worked as expected. We verified that search engines can simply crawl our site by testing the HTML and CSS. The main component of the web application is a database, and it was tested thoroughly. Examined query response times and tuned them. Web application displayed the correct test data collected from the database. If any change management modification is requested from the client, After the team worked on the new changes the entire application shall be tested again from end to end to make sure no regression is impacted.
   
-  
-  
+\
 # Traceability links
 Traceability is a type of requirements management that focuses on tracing needs that are clearly described in higher-level requirements but are required to achieve those requirements and make the whole system operate as planned.
   
@@ -167,8 +165,7 @@ Traceability is a type of requirements management that focuses on tracing needs 
 | ActivityDiagram-2 | Patient Survey | FR8, FR13, FR15, NFR8  |
 | ActivityDiagram-3 | Onboard Patient | FR21, FR22, FR25, NFR3, NFR4, NFR6, NFR8  |
   
-  
-  
+\
 # Software Artifacts
 <Describe the purpose of this section>
 
