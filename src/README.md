@@ -4,13 +4,13 @@ Placeholder for source code
 
 - Install angular CLI. 
   \
-  *npm install -g @angular/cli*
+  **npm install -g @angular/cli**
 
 - Go to code directory. Run below command to install all packages.
   \
-  *npm install*
+  **npm install**
 
-- Now to run local server, run *ng serve* or *ng s*
+- Now to run local server, run **ng serve** or **ng s**
 
 
 # Setup to run BackEnd
@@ -19,6 +19,6 @@ Placeholder for source code
  
 - Go to code directory. Run below command to install all packages.
   \
-  *npm install*
+  **npm install**
 
-- Now to run local server, run *npm start*
+- Now to run local server, run **npm start**
