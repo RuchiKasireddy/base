@@ -17,7 +17,7 @@ The software requirements are a list of the target system's characteristics and 
 | FR3 | After entering the required details, Doctor and patient shall be redirected to their respective dashboards. |
 | FR4 | For incorrect login credentials application shall display a popup message – “Invalid username and password”.|
 | FR5 | Uesr shall be provided an option to change the password by clicking on Forgot Password link.|
-| … | … | … |
+
 
 ### Dashboard – Doctor
 | ID | Requirement |
@@ -27,7 +27,7 @@ The software requirements are a list of the target system's characteristics and 
 | FR8 | The doctor shall be able to see and analyze the survey findings in real time. |
 | FR9 | Doctor shall be able to notify patient if patient fails to take survey on daily basis.|
 | FR10 | Patient survey records shall be marked as completed after the doctor's review. |
-| … | … | … |
+
 
 ### Dashboard- Patient
 | ID | Requirement |
@@ -37,7 +37,7 @@ The software requirements are a list of the target system's characteristics and 
 | FR13 | Survey shall be triggered to the patient on daily basis to capture the responses and other vital information. |
 | FR14 | After being onboarded, the patient shall have access to the contact information for the relevant doctor, which they shall be able to use in the event of an emergency. |
 | FR15 | Patient shall be prompted to answer the assigned questions which will ease the recovery allowing their doctors to understand their health status and interact accordingly. |
-| … | … | … |
+
 
 ### Manage Patients
 | ID | Requirement |
@@ -47,7 +47,7 @@ The software requirements are a list of the target system's characteristics and 
 | FR18 | An email with user credentials shall be sent to the patient once the doctor creates a patient record in the system. |
 | FR19 | When a patient's therapy is over, the doctor shall be able to offboard them .|
 | FR20 | The patient access to the application shall be blocked once the doctor offboards the patient. |
-| … | … | … |
+
 
 ### Onboard Patient
 | ID | Requirement |
@@ -78,7 +78,7 @@ The software requirements are a list of the target system's characteristics and 
 | NFR8 | User-Interface: The user interface shall acknowledge within five seconds. |
 | NFR9 | Login: The system shall allow every user to sign in within 5 seconds. |
 | NFR10 | Scalability: The system shall be able to handle multiple users without any delay. This will show that the application is very scalable and can handle the load if required. |
-| … | … | … |
+
   
 ### Maintainability
 | ID | Requirement |
@@ -137,7 +137,7 @@ Traceability is a type of requirements management that focuses on tracing needs 
 | UseCase1 | Add patient |FR6, FR14, F16, FR21, NFR3, NFR4, NFR19|
 | UseCase2 | Assign Survey |FR8, FR9, FR10, FR13, NFR22|  
 | UseCase3 | User credentials |FR1, FR2, FR4, FR5, FR17, FR18, FR22, NFR1, NFR2|  
-| … | … | … |
+
   
 ## Class Diagram Traceability
 
