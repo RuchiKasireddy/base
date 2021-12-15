@@ -16,7 +16,7 @@ The software requirements are a list of the target system's characteristics and 
 | FR2 | Login page shall be accessible for both doctor and patient. |
 | FR3 | After entering the required details, Doctor and patient shall be redirected to their respective dashboards. |
 | FR4 | For incorrect login credentials application shall display a popup message – “Invalid username and password”.|
-| FR5 | Uesr shall be provided an option to change the password by clicking on Forgot Password link.|
+| FR5 | User shall be provided an option to change the password by clicking on Forgot Password link.|
 
 
 ### Dashboard – Doctor
