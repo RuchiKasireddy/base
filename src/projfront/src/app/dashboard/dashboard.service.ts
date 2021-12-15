@@ -30,18 +30,31 @@ export class DashboardService {
     httpHeaders.set('Content-Type', 'application/json');
     return this.http.post(url, d, { headers: httpHeaders })
   }
-  emailSend(d: any) {
+ emailSend(d: any) {
     let url = 'https://api.emailjs.com/api/v1.0/email/send'
+    var data 
     // /userId/ConditionId
     // 'service_7f4e33j', 'template_yw1523m', this.emailform , 'user_ZVE6kaaWoren7oRSg7S3c'
-    var data = {
-      service_id: 'service_rnhdcpc',
-      template_id: 'template_i62a3fi',
-      user_id: 'user_FT4qIkHG8thNeBsFj5Wbz',
-      template_params: {
-          'email': d.email,
-          'password': d.password
-      }
+    if(d.password){
+       data = {
+        service_id: 'service_rnhdcpc',
+        template_id: 'template_i62a3fi',
+        user_id: 'user_FT4qIkHG8thNeBsFj5Wbz',
+        template_params: {
+            'email': d.email,
+            'password': d.password
+        }
+    }
+  }
+    else{
+      data = {
+        service_id: 'service_rnhdcpc',
+        template_id: 'template_18kf0zi',
+        user_id: 'user_FT4qIkHG8thNeBsFj5Wbz',
+        template_params: {
+            'email': d.email,
+        }
+    }
   };
     const httpHeaders = new HttpHeaders();
     httpHeaders.set('Content-Type', 'application/json');
