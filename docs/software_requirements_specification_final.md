@@ -137,6 +137,9 @@ Traceability is a type of requirements management that focuses on tracing needs 
 | … | … | … |
   
 ## Class Diagram Traceability
+
+[Class Diagram](https://github.com/Rupesh247/GVSU-CIS641-Mavericks/blob/caf5343e3f73cceeccabdf7e35d2d5950efcd5ea/artifacts/Assignment%204(Group).docx)
+
 | Artifact Name | Requirement ID |
 | :-------------: |:----------: |
 | Login | NFR1, NFR2,NFR7, NFR9,NFR10, FR1, FR2, FR3, FR4 |
