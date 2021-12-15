@@ -134,9 +134,10 @@ Traceability is a type of requirements management that focuses on tracing needs 
 
 | Artifact ID | Artifact Name | Requirement ID |
 | :-------------: | :----------: | :----------: |
-| UseCase1 | Add patient |FR6, FR14, F16, FR21, NFR3, NFR4, NFR19|
-| UseCase2 | Assign Survey |FR8, FR9, FR10, FR13, NFR22|  
-| UseCase3 | User credentials |FR1, FR2, FR4, FR5, FR17, FR18, FR22, NFR1, NFR2|  
+| UseCase1 | Doctor login  |FR1, FR2, FR3, FR6, FR9, FR16, NRF3, NRF20|
+| UseCase2 |Onboard Patient  |FR1, FR6, FR14, FR16, FR17, FR18, NFR1, NFR3, NFR4, NFR19|  
+| UseCase3 | Manage Patient |FR6, FR8, FR9, FR10, FR16, FR17, NFR4, NFR19, NFR20, NFR25|  
+| UseCase4 | Patient login |FR1, FR2, FR3, FR15, FR22, FR23, NFR1, NFR4, NFR20|
 
   
 ## Class Diagram Traceability
