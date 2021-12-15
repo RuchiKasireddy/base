@@ -1,5 +1,5 @@
 # HEAL EXPERT
-## _SRS Markdown Structure_
+## _SRS_
 
 ## Overview
 The document contains a full description of the "HEAL EXPERT" requirements. It will demonstrate the application's goal and overall flow.
