@@ -58,12 +58,17 @@ exports.signIn = (req, res) => {
               .json({ message: "no response from patient" });
           }
           console.log(response)
-          res.status(200).json({
-            Token: jwtToken,
-            expiresIn: 3600,
-            user: getuser,
-            userData: response,
-          });
+          if(response.status){
+            res.status(200).json({
+              Token: jwtToken,
+              expiresIn: 3600,
+              user: getuser,
+              userData: response,
+            });
+          }
+          else{
+            return res.status(200).json({ message: "access declined" });
+          }
         });
       }
     })
