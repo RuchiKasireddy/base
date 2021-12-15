@@ -9,7 +9,7 @@ The software requirements are a list of the target system's characteristics and 
   
 ## Functional Requirements
   
-## Login Page
+### Login Page
 | ID | Requirement |
 | :-------------: | :----------: |
 | FR1 | Login page shall consist of two fields which are username and password. |
