@@ -26,7 +26,7 @@ The software requirements are a list of the target system's characteristics and 
 | FR7 | The website shall provide a dashboard with patient information. |
 | FR8 | The doctor shall be able to see and analyze the survey findings in real time. |
 | FR9 | Doctor shall be able to notify patient if patient fails to take survey on daily basis.|
-| FR10 | Following the doctors review, patient survey records shall be marked as completed. |
+| FR10 | Patient survey records shall be marked as completed after the doctor's review. |
 | … | … | … |
 
 ### Dashboard- Patient
@@ -158,8 +158,9 @@ Traceability is a type of requirements management that focuses on tracing needs 
 
 | Artifact ID | Artifact Name | Requirement ID |
 | :-------------: | :----------: | :----------: |
-| <filename> | Handle Player Input | FR1-5, NFR2 |
-| … | … | … |
+| ActivityDiagram-1 | Patient Management | FR7, FR9, FR13, FR15, FR16, FR17, FR19, NFR6, NFR8 |
+| ActivityDiagram-2 | Patient Survey | FR8, FR13, FR15, NFR8  |
+| ActivityDiagram-3 | Onboard Patient | FR21, FR22, FR25, NFR3, NFR4, NFR6, NFR8  |
   
 # Software Artifacts
 <Describe the purpose of this section>
