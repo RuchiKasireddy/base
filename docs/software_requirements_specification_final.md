@@ -129,6 +129,9 @@ With the requirements taken, the developer shall have an idea of challenges that
 Traceability is a type of requirements management that focuses on tracing needs that are clearly described in higher-level requirements but are required to achieve those requirements and make the whole system operate as planned.
   
 ## Use Case Diagram Traceability
+
+[Use Case Diagrams](https://github.com/Rupesh247/GVSU-CIS641-Mavericks/blob/caf5343e3f73cceeccabdf7e35d2d5950efcd5ea/artifacts/Assignment%204(Group).docx)
+
 | Artifact ID | Artifact Name | Requirement ID |
 | :-------------: | :----------: | :----------: |
 | UseCase1 | Add patient |FR6, FR14, F16, FR21, NFR3, NFR4, NFR19|
@@ -138,7 +141,6 @@ Traceability is a type of requirements management that focuses on tracing needs 
   
 ## Class Diagram Traceability
 
-[Class Diagram](https://github.com/Rupesh247/GVSU-CIS641-Mavericks/blob/caf5343e3f73cceeccabdf7e35d2d5950efcd5ea/artifacts/Assignment%204(Group).docx)
 
 | Artifact Name | Requirement ID |
 | :-------------: |:----------: |
@@ -151,8 +153,9 @@ Traceability is a type of requirements management that focuses on tracing needs 
 
   
 ## Activity Diagram Traceability
-<In this case, it makes more sense (I think, feel free to disagree) to link
-to the file and to those requirements impacted>
+
+[Activity Diagrams](https://github.com/Rupesh247/GVSU-CIS641-Mavericks/blob/caf5343e3f73cceeccabdf7e35d2d5950efcd5ea/artifacts/Assignment%204(Group).docx)
+
 | Artifact ID | Artifact Name | Requirement ID |
 | :-------------: | :----------: | :----------: |
 | <filename> | Handle Player Input | FR1-5, NFR2 |
