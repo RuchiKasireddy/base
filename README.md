@@ -22,6 +22,7 @@ The project has been initiated to integrate health services by providing real ti
 ## Run Instructions
 
 ### Setup to run FrontEnd
+
 * Install angular CLI.
 \
 **npm install -g @angular/cli**
@@ -30,14 +31,14 @@ The project has been initiated to integrate health services by providing real ti
 \
 **npm install**
 
-* Now to run local server, run **ng serve** or **ng s**
+* Now to run local server, run **ng serve** or **ng s**.
 
 ### Setup to run BackEnd
 
-* Install nodejs latest version
+* Install nodejs latest version.
 
 * Go to code directory. Run below command to install all packages.
 \
 **npm install**
 
-* Now to run local server, run **npm start**
+* Now to run local server, run **npm start**.
