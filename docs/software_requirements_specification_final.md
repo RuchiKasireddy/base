@@ -165,4 +165,10 @@ Traceability is a type of requirements management that focuses on tracing needs 
   
 # Software Artifacts
 <Describe the purpose of this section>
-* [I am a link](to_some_file.pdf)
+
+* [Project Code](https://github.com/Rupesh247/GVSU-CIS641-Mavericks/tree/master/src)
+* [Class Diagram](https://github.com/Rupesh247/GVSU-CIS641-Mavericks/blob/ee76d3a84c60165125d0402f7dbe9788c9898ffb/artifacts/Assignment%205(Group).docx)
+* [Usecase and Activity Diagrams](https://github.com/Rupesh247/GVSU-CIS641-Mavericks/blob/caf5343e3f73cceeccabdf7e35d2d5950efcd5ea/artifacts/Assignment%204(Group).docx)
+* [Behavioral Models](https://github.com/Rupesh247/GVSU-CIS641-Mavericks/blob/6fa6aca0c896558f94c7d0577d74f8a36271418a/artifacts/Behavioral%20models.docx)
+* [HCI Diagram](https://github.com/Rupesh247/GVSU-CIS641-Mavericks/blob/6fa6aca0c896558f94c7d0577d74f8a36271418a/artifacts/HCI.docx)
+ 
