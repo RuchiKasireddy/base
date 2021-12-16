@@ -17,6 +17,7 @@ The project has been initiated to integrate health services by providing real ti
 * [SRS Document](https://github.com/Rupesh247/GVSU-CIS641-Mavericks/blob/ed54dca900bf70c7984793545fb8091a7cafce4b/docs/software_requirements_specification.md)
 * [Meetings](https://github.com/Rupesh247/GVSU-CIS641-Mavericks/tree/master/meetings)
 * [SRS_Final](https://github.com/Rupesh247/GVSU-CIS641-Mavericks/blob/b7c63d26e0ba45d306f645bd05c941d05703228e/docs/software_requirements_specification_final.md)
+* [Final Presentation](* [SRS_Final](https://github.com/Rupesh247/GVSU-CIS641-Mavericks/blob/b7c63d26e0ba45d306f645bd05c941d05703228e/docs/software_requirements_specification_final.md))
 
 ## Prerequisites
 
